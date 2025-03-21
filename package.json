@@ -10,6 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "npm-run-all --parallel reload dev",
     "docs": "esdoc"
+    "vercel-build": "rollup -c -w"
   },
   "repository": {
     "type": "git",
